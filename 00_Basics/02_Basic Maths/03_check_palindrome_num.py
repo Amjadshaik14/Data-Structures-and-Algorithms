@@ -5,7 +5,7 @@ def isPalindrome(num):
         rem = num % 10
         result = result * 10 + rem
         num //= 10
-    return True if original == result else False
+    return original == result
 
 
 def main():
